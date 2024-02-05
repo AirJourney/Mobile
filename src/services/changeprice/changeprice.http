@@ -1,0 +1,4 @@
+POST https://www.skywinghub.com/website/changeprice HTTP/1.1
+content-type: application/json
+
+{"changePassenger":[{"name":"Adult","count":2,"flag":"ADT"},{"name":"Children","count":2,"flag":"CHD"},{"name":"Infants","count":1,"flag":"INF"}],"priceId":"29af62f7c465497891d7d60235d153c5"}

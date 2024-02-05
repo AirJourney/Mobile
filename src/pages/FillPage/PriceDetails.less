@@ -1,0 +1,63 @@
+@import "../../constant/index.less";
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.summary-price{
+    .currency-symbol{
+        font-size: .5rem;
+    }
+    .summary-tips{
+        display: flex;
+        flex-direction: row;
+        font-size: @font-size-ssm;
+    }
+}
+.summary-price-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.price-details-item{
+    .price-details-summary{
+        display: flex;
+        & span:nth-child(1){
+            flex:1;
+            font-size: @font-size;
+        }
+        & span:nth-child(2){
+            .currency-symbol{
+                font-size: 5px;
+            }
+            color: @secondary-color;
+            font-size: @font-size-sm;
+        }
+        & span:nth-child(3){
+            margin-left: 5px;
+            font-size: @font-size-sm;
+            &::before{
+                content: 'x';
+            }
+        }
+    }
+
+    .price-details{
+        display: flex;
+        margin-left: 10px;
+        & span:nth-child(1){
+            flex:1;
+            font-size: @font-size-sm;
+        }
+        & span:nth-child(2){
+            .currency-symbol{
+                font-size: 5px;
+            }
+            color: @secondary-color;
+            font-size: @font-size-ssm;
+        }
+    }
+}

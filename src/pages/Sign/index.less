@@ -1,0 +1,68 @@
+@import "../../constant/index.less";
+
+.sign-container{
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .sign-title{
+    font-size: 20px;
+    padding-bottom: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .logo-image{
+      width: 100px;
+    }
+  }
+
+  .sign-slogan{
+    font-size: @font-size-sm;
+    padding-bottom: 20px;
+  }
+
+  .sign-input{
+    flex: unset;
+    height: 60px;
+    font-size: @font-size;
+    line-height: 20px;
+    color: #333;
+    align-items: center;
+  }
+  .forget-button{
+    width: 100%;
+    color: @secondary-color;
+    font-size: @font-size-sm;
+    text-align: right;
+  }
+  .sign-button{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .sure-button{
+      width: 100%;
+      background-color: @primary-color;
+      color: @secondary-color;
+    }
+  }
+  .sign-tips{
+    font-size: @font-size-sm;
+    .sign-switch{
+      color: @primary-color;
+    }
+  }
+  .sign-statement{
+    flex-grow: 1;
+    display: flex;
+    align-items: self-end;
+    font-size: @font-size-sm;
+    position: absolute;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../constant/index.less';
+
+.search-result-loading{
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.search-result-container{
+    color: #999;
+    font-size: @font-size-sm;
+    padding: 0 12px;
+    padding-bottom: 12px;
+    .search-result-country{
+        .search-result-airport-highlight-container{
+            display: flex;
+            .search-result-airport-highlight{
+                color: @primary-color;
+            }
+        }
+        .search-result-country-name{
+            padding: 5px 0;
+            color: #262525;
+        }
+        .search-result-airport{
+            margin-left: 15px;
+            padding: 5px 0;
+            color: #999;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+curl 'https://www.skywinghub.com/website/changecurrency' \
+  -H 'Accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'clientTime: 2023-09-19T10:37:01+08:00' \
+  -H 'currency: TWD' \
+  -H 'locale: en' \
+  --data-raw '{"changePassenger":[{"name":"Adult","count":1,"flag":"ADT"},{"name":"Children","count":0,"flag":"CHD"},{"name":"Infants","count":0,"flag":"INF"}],"priceId":"b45309dc6eb84a9db87444e6ac41e120","shoppingId":"10e7f521c38345c1bc0691cb6bc4012f","currency":"CNY"}' \
+  --compressed

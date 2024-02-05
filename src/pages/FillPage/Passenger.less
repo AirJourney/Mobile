@@ -1,0 +1,26 @@
+@import "../../constant/index.less";
+
+.passenger{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  .passenger-name{
+    flex: 1;
+    font-size: @font-size-sm;
+    color: #3f4f63;
+    margin-right: 10;
+    span:first-child::after{
+      content: '/';
+    }
+  }
+  .passenger-passport{
+    flex: 1;
+    font-size: @font-size-sm;
+    color: #9fafbd;
+    margin-right: 10;
+    & > span:first-child::after{
+      content: ' : ';
+    }
+  }
+}

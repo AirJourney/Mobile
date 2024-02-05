@@ -1,0 +1,4 @@
+POST https://www.skywinghub.com/website/shoppingdetail HTTP/1.1
+content-type: application/json
+
+{"shoppingId": "c7fee564753b4fb6986f539fb0939604"}

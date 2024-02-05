@@ -1,0 +1,29 @@
+@import "../../constant/index.less";
+.index{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  
+  .header {
+    display: flex;
+    color: @primary-color;
+    background-color: @secondary-color;
+    justify-content: space-between;
+    padding: 5px;
+    flex-grow: 0;
+    align-items: center;
+  
+    .header-home {
+      display: flex;
+      align-items: center;
+      &:visited {
+        color: @primary-color;
+      }
+    }
+  
+    .logo-image {
+      width: 30%;
+    }
+  }
+}

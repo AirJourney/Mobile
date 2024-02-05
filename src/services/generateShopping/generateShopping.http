@@ -1,0 +1,4 @@
+POST https://www.skywinghub.com/website/generateshopping HTTP/1.1
+content-type: application/json
+
+{"campaign":"flight","deepLinkTokenId":"v-1.2","locale":"en","mktportal":"customer","currency":"TWD","tripType":"OW","redisCode":"0917TSASHA","segmentSchema":"1820(+8)-0200-CZ-3096-E&T-TPE-T2-PVG-T2-1-330-T2AZASTW-2020(+8)-P3570601|67.00-58.27-67.00-58.27-67.00-43.70","departTime":"20230917","returnTime":"","adult":"1","children":"0","infant":"0","cabinType":"E","depart":"TSA","arrive":"SHA"}

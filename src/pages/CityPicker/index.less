@@ -1,0 +1,47 @@
+@import '../../constant/index.less';
+
+.city-picker {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .areas-panel {
+    flex-grow: 1;
+    height: 0;
+
+    .areas-panel-docker {
+      height: 100%;
+      overflow-y: scroll;
+
+      .area-panel {
+        padding: 1rem;
+        padding-top: 0;
+
+        .area-name {
+          color: #999;
+          font-size: @font-size-sm;
+        }
+
+        .area-cities {
+          display: flex;
+          flex-wrap: wrap;
+
+          .area-city {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: @font-size-sm;
+            width: 31%;
+            margin: .5rem 0 0 3.5%;
+            padding: .1rem 0;
+            border: .05rem solid #eee;
+
+            &:nth-child(3n+1) {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
